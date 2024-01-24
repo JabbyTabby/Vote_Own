@@ -1,0 +1,19 @@
+.buttonFirst{
+    display: flex;
+    margin-top: 20px;
+}
+
+.buttonSecond{
+    display: flex;
+    margin-top: 20px;
+}
+
+.buttonThird{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.number{
+    margin-left: 20px;
+}

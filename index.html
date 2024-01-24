@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Choose the names of the challengers</h1>
+    <div class="nameChange">
+        <button onclick="voteNameFirst()">Challenger 1</button>
+        <button onclick="voteNameSecond()">Challenger 2</button>
+        <button onclick="voteNameThird()">Challenger 3</button>
+    </div>
+</head>
+<body>
+    <div class="buttonFirst">
+        <button onclick="voteForFirst()" id="voteFirst">Vote1</button>
+        <p class="number" id="vote1"></p>
+    </div>
+    <div class="buttonSecond">
+        <button onclick="voteForSecond()" id="voteSecond">Vote2</button>
+        <p class="number" id="vote2"></p>
+    </div>
+    <div class="buttonThird">
+        <button onclick="voteForThird()" id="voteThird">Vote3</button>
+        <p class="number" id="vote3"></p>
+    </div>
+        <button onclick="voteReset()">Reset Numbers</button>
+        <button onclick="nameReset()">Reset Names</button>
+
+    <div>
+        <canvas id="myChart"></canvas>
+    </div>
+
+</body>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</html>
